@@ -51,6 +51,9 @@
            border-top: 1px solid var(--line); padding-top: var(--s2); }
   .facts dt { color: var(--dim); text-transform: uppercase; letter-spacing: 0.08em; }
   .facts dd { margin: 0; }
+  .slate .data { margin: 0; font: 500 12px/1.4 var(--mono); }
+  .slate .data a { color: var(--acc); text-decoration: none; }
+  .slate .data a:hover, .slate .data a:focus-visible { text-decoration: underline; }
 
   .views { grid-column: 2; grid-row: 1; justify-self: end; align-self: start; padding: var(--s2);
            display: grid; gap: var(--s2); min-width: 184px; }
@@ -130,6 +133,7 @@
       <dt>Storeys</dt><dd>2, floors at &minus;0.85 m and +2.20 m</dd>
       <dt>Footprint</dt><dd>37.8 &times; 31.4 m</dd>
     </dl>
+    <p class="data"><a href="https://cinemaas.github.io/pn-scouts/stevens-estate/data/">&#8595; Measure this scan &mdash; plan, mesh, point cloud, wall data</a></p>
   </header>
 
   <nav class="views panel" aria-label="Viewpoints and movement">
